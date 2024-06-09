@@ -6,7 +6,8 @@
     --color-white: #ffffff;
     --color-primary: #dc9b01;
     --color-secondary: #504f4d;
-  }.Destinations{
+  }
+  .Destination{
     background-color: black;
     padding: 2rem;
     gap: 3rem;
@@ -40,26 +41,41 @@
     border-radius: 50%;
 }
 .Places{
-    /* display: flex;
-    flex-direction: row; */
-    border: #dc9b01 solid 2px;
-    margin-top: 30px;
-    border-radius: 20px;
-    width: 60%;
-    min-height: 60vh;
+    margin-top: 2rem;
 }
 .Places-container{
+    border: #dc9b01 solid 2px;
+    gap: 2rem;
     display: flex;
-    flex-direction: row;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    align-items: center;
 }
-.PlacesImage{
-    width: 40%;
+.Places-image img{
+    border-radius: 30px;
 }
-.PlacesImage img {
-    width: 60%;
-    height: 60%;
+.Places-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.PlacesDescription{
-     text-align: center;
-     font-size: 15px;
+.Places-details h1{
+    color: #dc9b01;
+    text-transform: capitalize;
+}
+.Places-details p{
+    color: #ffffff;
+    text-align: center;
+}
+.Places-details h2{
+    color: #ffffff;
+}
+.Places-details h3{
+    color: #ffffff;
+}
+.Button{
+    background-color: #dc9b01;
+    padding: 10px 20px;
+    border-radius: 20px;
 }

@@ -1,0 +1,17 @@
+:root {
+    --primary-font: "Playfair Display", serif;
+    --secondary-font: "Satisfy", cursive;
+    --color-black: #333333;
+    --color-white: #ffffff;
+    --color-primary: #dc9b01;
+    --color-secondary: #504f4d;
+  }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-secondary);
+}
+.footer p{
+    color: #dc9b01;
+}
