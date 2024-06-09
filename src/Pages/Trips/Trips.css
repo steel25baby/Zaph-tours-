@@ -1,0 +1,72 @@
+
+.Trip-banner{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: black;
+    gap: 3rem;
+}
+.Banner-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+.Banner-text h1{
+    color: #dc9b01;
+    text-transform: capitalize;
+    font-family: var(--secondary-font);
+    font-size: 80px;
+    font-weight: 100;
+}
+.Banner-text p{
+    color: #dc9b01;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.TripPackages{
+    background-color: black;
+    padding: 2rem;
+    /* display: flex; */
+}
+.Trip-container1{
+    display: flex;
+    border: #dc9b01 1px solid ;
+    border-radius: 30px;
+    padding: 2rem;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.Trip-details{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Trip-header{
+    color: #dc9b01;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.Trip-details P{
+    color: white;
+}
+.Trip-details h4{
+    color: white;
+}
+.Trip-details button{
+    background-color: #dc9b01;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.Trip-image img{
+border-radius: 50px;
+}
+
+

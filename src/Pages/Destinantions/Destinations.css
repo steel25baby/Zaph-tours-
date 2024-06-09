@@ -1,0 +1,65 @@
+
+:root {
+    --primary-font: "Playfair Display", serif;
+    --secondary-font: "Satisfy", cursive;
+    --color-black: #333333;
+    --color-white: #ffffff;
+    --color-primary: #dc9b01;
+    --color-secondary: #504f4d;
+  }.Destinations{
+    background-color: black;
+    padding: 2rem;
+    gap: 3rem;
+}
+.destination-baner{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+    border: #dc9b01 2px solid;
+    padding: 2rem;
+}
+.Banner-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #dc9b01;
+}
+.DestinationsHeading{
+    font-family: var(--secondary-font);
+    font-weight: 100;
+    font-size: 80px;
+}
+.dest-pic{
+    width: 40%;
+}
+.dest-pic img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+.Places{
+    /* display: flex;
+    flex-direction: row; */
+    border: #dc9b01 solid 2px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 60%;
+    min-height: 60vh;
+}
+.Places-container{
+    display: flex;
+    flex-direction: row;
+}
+.PlacesImage{
+    width: 40%;
+}
+.PlacesImage img {
+    width: 60%;
+    height: 60%;
+}
+.PlacesDescription{
+     text-align: center;
+     font-size: 15px;
+}
